@@ -1,3 +1,71 @@
 nav {
     background: #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    height: 60px;
+    color: #fff;
+    align-items: center;
+}
+
+.logo img {
+    width: 120px;
+    height: auto;
+}
+
+.navigation {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.underline {
+    /* border: 2px solid #fff; */
+    /* border: 2px solid #fff; */
+    border-radius: 2px;
+    height: 4px;
+    width: 28px;
+    color: #fff;
+    background: #fff;
+}
+
+.user-options {
+    display: flex;
+    gap: 20px;
+}
+
+.action {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.profile {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background: #fff;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
+.menu svg {
+    width: 20px;
+}
+
+.avatar svg {
+    width: 28px;
+    height: 28px;
+    fill: #777;
 }
